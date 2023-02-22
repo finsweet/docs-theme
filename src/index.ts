@@ -1,7 +1,3 @@
-import { greetUser } from '$utils/greet';
+import Theme from '@finsweet/docs-theme';
 
-window.Webflow ||= [];
-window.Webflow.push(() => {
-  const name = 'John Doe';
-  greetUser(name);
-});
+export default Theme;
