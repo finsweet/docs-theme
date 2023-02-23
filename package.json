@@ -24,14 +24,11 @@
     "dist"
   ],
   "scripts": {
-    "dev": "cross-env NODE_ENV=development node ./bin/build.js",
-    "build": "cross-env NODE_ENV=production node ./bin/build.js",
+    "build": "tsc --noEmit",
     "lint": "eslint --ignore-path .gitignore ./src && prettier --check ./src",
     "lint:fix": "eslint --ignore-path .gitignore ./src --fix",
     "check": "tsc --noEmit",
     "format": "prettier --write ./src",
-    "test": "pnpm playwright test",
-    "test:headed": "pnpm playwright test --headed",
     "release": "changeset publish",
     "update": "pnpm update -i -L -r"
   },
@@ -51,6 +48,10 @@
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "prettier": "^2.8.4",
     "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "vitepress": "^1.0.0-alpha.45",
+    "vue": "^3.2.47"
   },
   "dependencies": {
     "vitepress": "^1.0.0-alpha.45",

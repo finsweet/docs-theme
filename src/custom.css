@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Graphik Web';
-  src: url(./Graphik-SuperItalic-Web.woff2) format('woff2'),
+  src: url('./Graphik-SuperItalic-Web.woff2') format('woff2'),
     url('./Graphik-SuperItalic-Web.woff') format('woff');
   font-weight: 900;
   font-style: italic;
@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: 'Graphik Web';
-  src: url(./Graphik-Super-Web.woff2) format('woff2'),
+  src: url('./Graphik-Super-Web.woff2') format('woff2'),
     url('./Graphik-Super-Web.woff') format('woff');
   font-weight: 900;
   font-style: normal;
