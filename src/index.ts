@@ -1,3 +1,5 @@
-import Theme from '@finsweet/docs-theme';
+export * from '@theme/index';
 
-export default Theme;
+// import Theme from '@finsweet/docs-theme';
+
+// export default Theme
