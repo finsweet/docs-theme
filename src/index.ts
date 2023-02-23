@@ -1,7 +1,5 @@
-import { greetUser } from '$utils/greet';
+import './custom.css';
 
-window.Webflow ||= [];
-window.Webflow.push(() => {
-  const name = 'John Doe';
-  greetUser(name);
-});
+import DefaultTheme from 'vitepress/theme';
+
+export default DefaultTheme;
