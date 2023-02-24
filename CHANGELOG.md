@@ -1,5 +1,11 @@
 # @finsweet/docs-theme
 
+## 0.1.1
+
+### Patch Changes
+
+- 64b4440: Update css export
+
 ## 0.1.0
 
 ### Minor Changes
