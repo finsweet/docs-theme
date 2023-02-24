@@ -21,7 +21,8 @@
   "module": "src/index.ts",
   "exports": "./src/index.ts",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "scripts": {
     "build": "tsc --noEmit",
