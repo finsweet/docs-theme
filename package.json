@@ -22,7 +22,8 @@
   "exports": "./src/index.ts",
   "files": [
     "dist",
-    "src"
+    "src/index.ts",
+    "src/custom.css"
   ],
   "scripts": {
     "build": "tsc --noEmit",
