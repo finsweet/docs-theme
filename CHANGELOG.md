@@ -1,5 +1,11 @@
 # @finsweet/docs-theme
 
+## 0.1.3
+
+### Patch Changes
+
+- bf2238e: Update code colors and css import
+
 ## 0.1.2
 
 ### Patch Changes
