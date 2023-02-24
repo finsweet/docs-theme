@@ -693,10 +693,22 @@ article {
 
 /* code block */
 .vp-doc :not(pre) > code {
-  color: #000000 !important;
-  background-color: #f2ff37 !important;
+  color: #434876 !important;
+  background-color: #f5f5f5 !important;
 }
 .dark .vp-doc :not(pre) > code {
-  color: #f2ff37 !important;
-  background-color: #000000 !important;
+  color: #e5e7c5 !important;
+  background-color: #363636 !important;
+}
+
+/* dropdown link */
+
+.link:hover {
+  color: #2d40ea !important;
+  background-color: var(--vp-c-bg-elv-mute);
+}
+
+.dark .link:hover {
+  color: var(--vp-c-brand) !important;
+  background-color: var(--vp-c-bg-elv-mute);
 }
