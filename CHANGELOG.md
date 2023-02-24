@@ -1,5 +1,13 @@
 # @finsweet/docs-theme
 
+## 0.1.4
+
+### Patch Changes
+
+- c00e8d5: Remove playwright
+- 7468b36: Update exports file path
+- 6939af7: Remove playwright
+
 ## 0.1.3
 
 ### Patch Changes
