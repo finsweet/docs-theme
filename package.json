@@ -21,9 +21,7 @@
   "module": "src/index.ts",
   "exports": "./src/index.ts",
   "files": [
-    "dist",
-    "src/index.ts",
-    "src/custom.css"
+    "src"
   ],
   "scripts": {
     "build": "tsc --noEmit",
@@ -39,11 +37,8 @@
     "@changesets/cli": "^2.26.0",
     "@finsweet/eslint-config": "^2.0.2",
     "@finsweet/tsconfig": "^1.2.0",
-    "@playwright/test": "^1.30.0",
     "@typescript-eslint/eslint-plugin": "^5.51.0",
     "@typescript-eslint/parser": "^5.51.0",
-    "cross-env": "^7.0.3",
-    "esbuild": "^0.17.7",
     "eslint": "^8.33.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
