@@ -1,5 +1,11 @@
 # @finsweet/docs-theme
 
+## 0.1.2
+
+### Patch Changes
+
+- dff482b: Update files exports
+
 ## 0.1.1
 
 ### Patch Changes
