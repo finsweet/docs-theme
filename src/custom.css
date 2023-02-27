@@ -501,7 +501,7 @@ body {
    * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-sidebar-width: 272px;
+  --vp-sidebar-width: 330px;
   --vp-sidebar-bg-color: var(--vp-c-bg-alt);
 }
 
@@ -568,6 +568,12 @@ body {
   background-color: var(--vp-button-brand-bg) !important;
 }
 .VPButton.alt {
+  background-color: #f5f5f5;
+  border: 0 !important;
+}
+.dark .VPButton.alt {
+  background-color: #4e4e4e;
+  color: #f5f5f5 !important;
   border: 0 !important;
 }
 .VPButton.medium {
@@ -651,19 +657,24 @@ article {
   color: #f2ff37 !important;
 }
 .group {
-  padding-top: 3rem !important;
+  width: calc(var(--vp-sidebar-width) - 80px) !important;
+  padding-top: 2rem !important;
 }
 .VPSidebarItem.level-0 {
-  padding-bottom: 3rem !important;
+  padding-bottom: 1.5rem !important;
 }
 .group + .group {
-  border-top: 1px solid #000000 !important;
+  border-top: 1px solid #c4c4c4 !important;
+}
+.dark .group + .group {
+  border-top: 1px solid #4e4e4e !important;
 }
 .VPNavBarTitle.has-sidebar .title {
   border: 0;
+  font-size: 1.3rem;
 }
 .dark .VPSidebar {
-  background: #000000;
+  background: #000000 !important;
 }
 .dark .VPNavBar.has-sidebar .title {
   background: #000000;
@@ -701,14 +712,51 @@ article {
   background-color: #363636 !important;
 }
 
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1 !important;
+}
+.dark ::-webkit-scrollbar-track {
+  background: #373737 !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #dcdcdc !important;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #505050 !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 /* dropdown link */
 
 .link:hover {
   color: #2d40ea !important;
-  background-color: var(--vp-c-bg-elv-mute);
 }
 
 .dark .link:hover {
   color: var(--vp-c-brand) !important;
-  background-color: var(--vp-c-bg-elv-mute);
+}
+
+.outline-marker {
+  background-color: #2d40ea !important;
+}
+.dark .outline-marker {
+  background-color: #f2ff37 !important;
+}
+
+.link {
+  border-radius: 2px;
+  /* padding: 0px 8px; */
 }
