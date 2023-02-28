@@ -740,7 +740,9 @@ article {
 }
 
 /* dropdown link */
-
+aside::-webkit-scrollbar {
+  display: none;
+}
 .link:hover {
   color: #2d40ea !important;
 }
