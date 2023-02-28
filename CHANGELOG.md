@@ -1,5 +1,12 @@
 # @finsweet/docs-theme
 
+## 0.1.5
+
+### Patch Changes
+
+- e2c6492: New css changes
+- 24decb5: Update css styles
+
 ## 0.1.4
 
 ### Patch Changes
