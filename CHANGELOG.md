@@ -1,5 +1,11 @@
 # @finsweet/docs-theme
 
+## 0.1.6
+
+### Patch Changes
+
+- d125351: y
+
 ## 0.1.5
 
 ### Patch Changes
