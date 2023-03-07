@@ -199,6 +199,25 @@
   color: var(--fs-bluetiful);
 }
 
+#app .action .link {
+  display: inline-block;
+  padding: 14px 24px;
+  min-width: 143px;
+  width: max-content;
+  height: 50px;
+  border-radius: 0;
+  border: none;
+  background: var(--fs-bluetiful);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--light-text);
+}
+.dark #app .action .link {
+  background: var(--fs-yellow);
+  color: var(--dark-text);
+}
+
 #app .outline-link {
   font-weight: 500;
   font-size: 16px;
@@ -247,6 +266,11 @@
   padding-left: 0;
 }
 
+#app .vp-doc div[class*='language-'] {
+  border-radius: 0;
+  border: 1px solid var(--dark-text);
+}
+
 /* End of Code Snippets */
 
 /* 6. Sidebar */
@@ -292,3 +316,42 @@
 }
 
 /* End of Media Queries */
+
+/* 8. Scrollbar */
+
+/* For webkit browsers */
+::-webkit-scrollbar {
+  width: 12px; /* for vertical scrollbars */
+  height: 12px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track {
+  background: var(--white-smoke);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gainsboro);
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--gainsboro) var(--white-smoke);
+}
+
+/* dark theme scrollbar */
+
+.dark ::-webkit-scrollbar-track {
+  background: var(--onyx);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: var(--dark-liver);
+}
+
+/* For Firefox */
+.dark * {
+  scrollbar-color: var(--dark-liver) var(--onyx);
+}
+
+/* End of Scrollbar */
