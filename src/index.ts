@@ -24,7 +24,6 @@ const generateGithubVersions = async (repositoryName: string, limit = 5) => {
 
   const versions = await response.json();
 
-  // get the most recent 5 updates
   const recentUpdates = versions.slice(0, limit).map((version: GithubVersion) => {
     return {
       text: version.name,
