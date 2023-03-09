@@ -1,2 +1,5 @@
 # Production directory
 dist/
+
+# built file
+/src/index.js
