@@ -110,11 +110,15 @@ const generateSocialLinks = () => {
   ];
 };
 
+interface TableOfContents {
+  text: string;
+  link: string;
+}
 /**
  * This function generates the sidebar items
  * @returns array of sidebar items
  */
-const generateSidebar = () => {
+const generateSidebar = (tableOfCotents: TableOfContents[]) => {
   return [
     {
       text: 'Finsweet Docs',
@@ -133,14 +137,7 @@ const generateSidebar = () => {
     {
       text: 'Table of Contents',
       collapsed: false,
-      items: [
-        { text: 'Get Started', link: '/get-started' },
-        { text: 'Webflow', link: '/webflow' },
-        { text: 'Components', link: '/components' },
-        { text: 'Type Guards', link: '/type-guards' },
-        { text: 'Types', link: '/types' },
-        { text: 'Helpers', link: '/helpers' },
-      ],
+      items: [...tableOfCotents],
     },
   ];
 };
