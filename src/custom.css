@@ -68,7 +68,7 @@
   /* Code Snippet font */
   --vp-font-family-mono: 'Space Mono', Menlo, Monaco, Consolas, 'Courier New', monospace;
   --vp-c-brand: var(--fs-bluetiful);
-  --vp-sidebar-width: 473px;
+  --vp-sidebar-width: 350px;
 }
 
 /* 1. Typography */
@@ -236,13 +236,8 @@
 }
 
 #app .VPSidebarItem.collapsible,
-#app .VPSidebarItem.collapsible .items {
-  display: flex;
-  align-items: start;
-  justify-content: start;
-  padding: 0 0 0 0;
-  gap: 13px;
-  flex-direction: column;
+#app .VPSidebarItem.collapsible .VPSidebarItem {
+  margin-top: 10px;
 }
 
 #app .content .root {
@@ -256,7 +251,7 @@
 
 #app header .title .title {
   font-weight: 500;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 38px;
   display: grid;
   place-items: center;
