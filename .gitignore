@@ -29,3 +29,6 @@ dist
 
 # cache files
 /docs/.vitepress/cache
+
+# built file
+/src/index.js
