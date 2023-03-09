@@ -1,5 +1,13 @@
 # @finsweet/docs-theme
 
+## 0.1.6
+
+### Patch Changes
+
+- 13c3820: update configs and custom styles with variables to ovveride default vitepress theming and use finsweet theming
+- d125351: y
+- 1585450: add more styles and custom reusable functions that can be served into other docs
+
 ## 0.1.5
 
 ### Patch Changes
