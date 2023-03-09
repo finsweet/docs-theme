@@ -1,5 +1,11 @@
 # @finsweet/docs-theme
 
+## 0.1.7
+
+### Patch Changes
+
+- 372511c: fix build script
+
 ## 0.1.6
 
 ### Patch Changes
