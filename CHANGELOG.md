@@ -1,5 +1,12 @@
 # @finsweet/docs-theme
 
+## 0.1.8
+
+### Patch Changes
+
+- 70d7b48: cleanup code
+- 811f7ae: change title font size on small screen
+
 ## 0.1.7
 
 ### Patch Changes
